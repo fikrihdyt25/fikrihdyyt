@@ -1,0 +1,111 @@
+<html>
+    <head>
+    <title> DARI FIKRI HIDAYAT </title>
+    
+    <script type="text/javascript">
+    flag=1
+    function f1()
+    {
+        alert("Thanks Udah pilih Jawaban YA gw Juga sayang LU")
+        alert("yang Bener Jangan Terpaksa");
+        alert("Bener gak?");
+        alert("ahh massa??");
+        alert("serius");
+        alert("benerkan?");
+        alert("yaudah kita jadian");
+        alert("oke sayang");
+
+        
+    }
+    function f()
+    {
+        if(flag==1)
+            {
+                Bn.style.top=400
+                Bn.style.left=300
+                flag=2
+            }
+        else if(flag==2)
+            {
+                Bn.style.top=400
+                Bn.style.left=50
+                flag=3
+            }
+        else if(flag==3)
+            {
+                Bn.style.top=370
+                Bn.style.left=166
+                flag=1
+            }
+    }
+    </script>
+    
+    </head>
+    <body>
+    <h1> JAWAB DENGAN JUJUR YA  <h1>
+    <img src="img/monyet.jpg" height="200" />
+    <h1 style=>SAYANG GW KAGAK WOY??</h1>
+    <div id="By" style="position:absolute; left:64px; top:370px; width:210px;
+    height:210px;">
+    <input type="button" value=" YA " onClick="f1()" />
+    </div>
+    <div ID="Bn" style="position:absolute; left:166px; top:370px; width:210px; height:210px;">
+    <input type="button" value=" TIDAK " onMouseOver="f()" />
+    </div>
+
+    import turtle
+turtle.bgcolor("black")
+turtle.pensize(8)
+
+a=turtle.Turtle()
+a.penup()
+a.goto(-200,60)
+a.pendown()
+a.color("red")
+style =('courier',15,'italic')
+a.write('I',font=style,align='left')
+a.hideturtle()
+
+def curve():
+    for i in range(200):
+      turtle.right(1)
+      turtle.forward(1)
+
+turtle.speed(0)
+turtle.color("red","pink")
+    
+
+turtle.begin_fill()
+turtle.left(140)
+turtle.forward(111.0)
+curve()
+
+turtle.left(120)
+curve()
+turtle.forward(111.65)
+turtle.end_fill()
+turtle.hideturtle()
+
+a=turtle.Turtle()
+a.penup()
+a.goto(-45,75)
+a.pendown()
+a.color("red")
+style = ('courier',10,'italic')
+a.write('LOVE',font=style,align='left')
+a.hideturtle
+
+a = turtle.Turtle()
+a.penup()
+a.goto(180,60)
+a.pendown
+a.color("red")
+style = ('corier',15,"italic")
+a.write('YOU',font=style,align='left')
+a.hideturtle
+
+
+turtle.done()
+
+ </body>
+    </html>
